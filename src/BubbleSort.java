@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class BubbleSort {
 
     public static void main(String[] args) {
-
+        int n = 10;
         int arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
-        System.out.println(Arrays.toString(bubbleSort(arr, 10)));
+        System.out.println(Arrays.toString(bubbleSort(arr, n)));
 
 
     }

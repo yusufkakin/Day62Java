@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class QuickSort {
 
     public static void main(String[] args) {
         int arr[] = { 4, 1, 3, 9, 7};
         QuickSort.partition(arr, 0 , 4);
-printer(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void partition(int arr[], int low, int high) {
@@ -36,9 +38,4 @@ printer(arr);
         arr[index2] = temp;
     }
 
-    public static void printer(int[] arr){
-        for(int items : arr){
-            System.out.println(items);
-        }
-    }
 }
